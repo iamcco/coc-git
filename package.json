@@ -1,5 +1,5 @@
 {
-  "name": "coc-git",
+  "name": "coc-git-types",
   "version": "2.2.0",
   "description": "Git extension for coc.nvim",
   "main": "lib/index.js",
@@ -15,7 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/neoclide/coc-git.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -p ./ && rm -rf ./lib"
+  },
   "activationEvents": [
     "*"
   ],
