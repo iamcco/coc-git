@@ -4,10 +4,7 @@
   "description": "Git extension for coc.nvim",
   "main": "lib/index.js",
   "publisher": "chemzqm",
-  "keywords": [
-    "coc.nvim",
-    "git"
-  ],
+  "keywords": [],
   "engines": {
     "coc": "^0.0.80"
   },
