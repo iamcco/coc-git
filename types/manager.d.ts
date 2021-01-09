@@ -5,7 +5,7 @@ import Service from './model/service';
 import { Diff } from './types';
 export default class DocumentManager {
     private nvim;
-    private service;
+    public service;
     private virtualTextSrcId;
     private conflictSrcId;
     private buffers;

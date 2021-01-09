@@ -13,7 +13,7 @@ export default class DocumentManager {
   private disposables: Disposable[] = []
   constructor(
     private nvim: Neovim,
-    private service: Service,
+    public service: Service,
     private virtualTextSrcId: number,
     private conflictSrcId: number = 0
   ) {
